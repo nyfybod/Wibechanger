@@ -1,0 +1,27 @@
+{
+  "ovr-skinchanger": {
+    "repository": "https://github.com/pastow/ovr-skinchanger.git",
+    "commit": "3f131e9e6e75bc8a04e48ee3a5f81ef2f75c811b",
+    "path": "vendor/ovr-skinchanger",
+    "license": "GPL-3.0",
+    "localChanges": "reports/upstream-changes.patch"
+  },
+  "protobuf": {
+    "repository": "https://github.com/protocolbuffers/protobuf.git",
+    "version": "3.21.12",
+    "commit": "f0dc78d7e6e331b8c6bb2d5283e06aa26883ca7c",
+    "path": "vendor/protobuf",
+    "license": "BSD-3-Clause"
+  },
+  "game-protos": {
+    "repository": "https://github.com/SteamTracking/Protobufs.git",
+    "commit": "1059ae279a51c19c5de35d6f60161702728adce0",
+    "path": "vendor/protos",
+    "note": "Wire descriptions; generator-only Valve options are stripped into build/proto-input by CMake."
+  },
+  "minhook": {
+    "path": "vendor/ovr-skinchanger/src/Resource/Minhook",
+    "revision": "Bundled at the pinned ovr-skinchanger commit",
+    "license": "BSD-2-Clause, HDE components retain their original notices"
+  }
+}
